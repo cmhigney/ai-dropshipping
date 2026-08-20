@@ -73,6 +73,8 @@ share/python-wheels/
 *.xlsx.local
 
 # ---------- Editors / OS ----------
+# Per-machine Claude Code permissions; the shared .claude/settings.json is tracked.
+.claude/settings.local.json
 .vscode/
 !.vscode/extensions.json
 .idea/
